@@ -15,6 +15,8 @@
         <module>runoob-cloud-eureka-server</module>
         <module>runoob-cloud-eureka-dm-provider</module>
         <module>runoob-cloud-eureka-dm-consumer</module>
+        <module>runoob-cloud-config</module>
+        <module>runoob-cloud-config-server</module>
     </modules>
     <dependencyManagement>
         <dependencies>
