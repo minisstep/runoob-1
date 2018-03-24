@@ -13,6 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>runoob-cloud-eureka-server</module>
+        <module>runoob-cloud-eureka-dm-provider</module>
+        <module>runoob-cloud-eureka-dm-consumer</module>
     </modules>
     <dependencyManagement>
         <dependencies>

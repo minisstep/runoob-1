@@ -142,9 +142,6 @@
                 <id>nexus</id>
                 <name>Nexus</name>
                 <url>http://nexus.2dupay.com:8081/nexus/content/groups/public/</url>
-                <releases>
-                    <enabled>true</enabled>
-                </releases>
             </repository>
         <repository>
             <id>spring-milestones</id>
