@@ -1,10 +1,12 @@
-spring
+spring:
   application:
     name: config-server
   cloud:
     config:
       server:
         git:
-          uri: http://git.oschina.net/didispace/config-repo-demo/
+          uri: https://github.com/zhaoxiufei/runoob/tree/master/runoob-cloud/runoob-cloud-config/
+          username:
+          password:
 server:
   port: 3001
