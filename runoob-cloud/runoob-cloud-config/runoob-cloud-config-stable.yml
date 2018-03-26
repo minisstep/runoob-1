@@ -1,4 +1,5 @@
 info:
   profile: stable
+  env: 123456
 subt:
   sss: 666
