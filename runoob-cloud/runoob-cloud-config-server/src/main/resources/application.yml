@@ -14,30 +14,30 @@ spring:
           host-key: zhaoxiufei@gmail.com
           host-key-algorithm: ssh-rsa
           private-key: |
-          -----BEGIN RSA PRIVATE KEY-----
-          MIIEogIBAAKCAQEArFuGVbD455wefAUWqK66spwoGtJB5/u9iTnAg/Ez6k+2Lvh+
-          REEFwZnNKIWrHy0Aheh2Z7+r3PtYr4kXHSytKOjojpoVKFtjJJ6gKRhs2FQK6DXX
-          TRfxMnPOnVZQH+EjTvYntJgwQGP893j9W6mSjOKVZMMrSx+NDbIBAMd1TnbyMd3a
-          7onQTzyDmb4AgbB9tZYXY+7GU28Q4wKxTqlMfu0jW4ESAa1A5+blAKHSc2i6/cze
-          /irwLY1/NCX11elKjohnQtZVXMvDfoxaGx0aoiMK2i+L6uJGPs40KihW/4p3+9Jy
-          1ypDha9gAWHmqk7qRwDqdKLPOHG28AmOvJm+wQIDAQABAoIBABAqiYASGFaJAyb4
-          xzZNJT/Je82AOSRMLWvomdEGV6s7jMf9EMLQIn0VMvQBDZrf+rOUqT5z8OfKP3g/
-          cIaRATDcH6v4cdGWOMdfhYA1RUhJIbjEDAy0GTB1QkTpqpxC3q/yUKkUuTng5wJD
-          O+hUEGXcfsyzraTfMbi+IG/1RWB1ijxav29zqN4XJyX1nua/ZKpenCF4Vz8/k4fQ
-          AfVV/LQTC7Falf/90A0O9AzgzsR61CZk+YTr5GRLHW3pW2EFXiV3zizVXhSJIYri
-          zNfZ7AL6XDY/oCtHDtCPb2eb2o83bYOkJY+XuJy4kFF1RCjEneByE23cxBUzFxvL
-          J4emu5ECgYEA0k9pgslcwxP+vqyNJ7Dxy0JYL/7UY8pOBeCVuGT2P+7mOxkEFwNt
-          L+C13gCGD6Fgalze8tUden+roUoMgIzp7Z1af/a4UWKdAsootL1ePPuFHlHpzMU9
-          pU+XdFpSa4EwJWyHREU7d3rK25N7AIvis9rYHHw+KPkhArcXTJ234OUCgYEA0c1X
-          KLOk5YLfQ4bVcGSJFL7RhPCOlwbzMxlEYG5ttM+sS2cqwX9HRQIRnxmPbXmiVqh2
-          UV2Cg7TQ7afZWjMEz889U9e8G82SE3SH+QxWNtyIjS2yzQ+aS+iU6b91NcmmYUIN
-          yWwF3E7Pe/lkj9OCohNfEzBmO/eifAvfwPvDdK0CgYBNLi2HfMRZJxZe/U4UGeCy
-          eleIzZk+QfkeOQxZDlw8nDzLxWN12qEQaAP2Q/Tu+Yc7oXeEYGegFAh1eYpbBtu2
-          gv+6ZF3CKFF8u5nysmhKMvfoZ6FIr73u0+W+IoOKxm9X3JtLl6i6MUsPB/GlArEg
-          1hhnY8UgHkVaDL01NdBMbQKBgC81kIZFHjbS4yBTx9V5mesEIStT4hIT60e1SNCW
-          KLOGA5QYC+PsmwHpPEPbwY110FTFpZIbg5HVbyn7GgqU7mFAleE260oqUNN15l7h
-          Ksk/iK6T+ObxutuX42JRxbMrw/egoG+RkiQHy+JutPU0N/H2f+9WdbrKt1JIbboE
-          LPAlAoGALKZ2LcK8xMYOsXsLRnE3L4cs2p01ciiRLqC5Q21UDRNu6rVEYgYLek6m
-          XUDxrTvcwCqorr+quf9Mok0KNCRPLKZTJco8m5zCe9iNTCgYbhR1ieHMOD0p984S
-          Wt9BHLnPWBlYPZQnNM/qzW6hk0494rIVjOShZZ+X0Csrfh7OU6g=
-          -----END RSA PRIVATE KEY-----
+              -----BEGIN RSA PRIVATE KEY-----
+              MIIEogIBAAKCAQEArFuGVbD455wefAUWqK66spwoGtJB5/u9iTnAg/Ez6k+2Lvh+
+              REEFwZnNKIWrHy0Aheh2Z7+r3PtYr4kXHSytKOjojpoVKFtjJJ6gKRhs2FQK6DXX
+              TRfxMnPOnVZQH+EjTvYntJgwQGP893j9W6mSjOKVZMMrSx+NDbIBAMd1TnbyMd3a
+              7onQTzyDmb4AgbB9tZYXY+7GU28Q4wKxTqlMfu0jW4ESAa1A5+blAKHSc2i6/cze
+              /irwLY1/NCX11elKjohnQtZVXMvDfoxaGx0aoiMK2i+L6uJGPs40KihW/4p3+9Jy
+              1ypDha9gAWHmqk7qRwDqdKLPOHG28AmOvJm+wQIDAQABAoIBABAqiYASGFaJAyb4
+              xzZNJT/Je82AOSRMLWvomdEGV6s7jMf9EMLQIn0VMvQBDZrf+rOUqT5z8OfKP3g/
+              cIaRATDcH6v4cdGWOMdfhYA1RUhJIbjEDAy0GTB1QkTpqpxC3q/yUKkUuTng5wJD
+              O+hUEGXcfsyzraTfMbi+IG/1RWB1ijxav29zqN4XJyX1nua/ZKpenCF4Vz8/k4fQ
+              AfVV/LQTC7Falf/90A0O9AzgzsR61CZk+YTr5GRLHW3pW2EFXiV3zizVXhSJIYri
+              zNfZ7AL6XDY/oCtHDtCPb2eb2o83bYOkJY+XuJy4kFF1RCjEneByE23cxBUzFxvL
+              J4emu5ECgYEA0k9pgslcwxP+vqyNJ7Dxy0JYL/7UY8pOBeCVuGT2P+7mOxkEFwNt
+              L+C13gCGD6Fgalze8tUden+roUoMgIzp7Z1af/a4UWKdAsootL1ePPuFHlHpzMU9
+              pU+XdFpSa4EwJWyHREU7d3rK25N7AIvis9rYHHw+KPkhArcXTJ234OUCgYEA0c1X
+              KLOk5YLfQ4bVcGSJFL7RhPCOlwbzMxlEYG5ttM+sS2cqwX9HRQIRnxmPbXmiVqh2
+              UV2Cg7TQ7afZWjMEz889U9e8G82SE3SH+QxWNtyIjS2yzQ+aS+iU6b91NcmmYUIN
+              yWwF3E7Pe/lkj9OCohNfEzBmO/eifAvfwPvDdK0CgYBNLi2HfMRZJxZe/U4UGeCy
+              eleIzZk+QfkeOQxZDlw8nDzLxWN12qEQaAP2Q/Tu+Yc7oXeEYGegFAh1eYpbBtu2
+              gv+6ZF3CKFF8u5nysmhKMvfoZ6FIr73u0+W+IoOKxm9X3JtLl6i6MUsPB/GlArEg
+              1hhnY8UgHkVaDL01NdBMbQKBgC81kIZFHjbS4yBTx9V5mesEIStT4hIT60e1SNCW
+              KLOGA5QYC+PsmwHpPEPbwY110FTFpZIbg5HVbyn7GgqU7mFAleE260oqUNN15l7h
+              Ksk/iK6T+ObxutuX42JRxbMrw/egoG+RkiQHy+JutPU0N/H2f+9WdbrKt1JIbboE
+              LPAlAoGALKZ2LcK8xMYOsXsLRnE3L4cs2p01ciiRLqC5Q21UDRNu6rVEYgYLek6m
+              XUDxrTvcwCqorr+quf9Mok0KNCRPLKZTJco8m5zCe9iNTCgYbhR1ieHMOD0p984S
+              Wt9BHLnPWBlYPZQnNM/qzW6hk0494rIVjOShZZ+X0Csrfh7OU6g=
+              -----END RSA PRIVATE KEY-----
