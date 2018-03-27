@@ -12,8 +12,8 @@ public class DMController {
 
     @HystrixCommand(fallbackMethod = "fallback")
     @GetMapping("/consumer")
-    public String dc() throws InterruptedException {
-        Thread.sleep(5000L);
+    public String dc() {
+//        Thread.sleep(5000L);
         return serviceClient.consumer();
     }
 

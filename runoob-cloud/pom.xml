@@ -18,6 +18,7 @@
         <module>runoob-cloud-config</module>
         <module>runoob-cloud-config-server</module>
         <module>runoob-cloud-config-client</module>
+        <module>runoob-cloud-hystrix-dashboard</module>
     </modules>
     <dependencyManagement>
         <dependencies>
