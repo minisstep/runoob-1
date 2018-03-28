@@ -8,7 +8,7 @@ spring:
       server:
         git:
           uri: https://github.com/zhaoxiufei/runoob
-          search-paths: runoob-cloud/runoob-cloud-config
+          search-paths: runoob-cloud/runoob-cloud-config/**
           default-label: master
           clone-on-start: true
           username:
