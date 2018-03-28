@@ -15,14 +15,14 @@ eureka:
 #其中<serviceId>用来指定路由的具体服务名，<path>用来配置匹配的请求表达式。
 #比如下面的例子，它的路由规则等价于上面通过path与serviceId组合使用的配置方式。
 #默认：http://localhost:5001/dm-provider/service
-#默认：http://localhost:5001/dm-consumer/query
+#默认：http://localhost:5001/open-api/query
 #配置：http://localhost:5001/abc/service
 #配置：http://localhost:5001/def/query
 #
 zuul:
   routes:
     dm-provider: /abc/**
-    dm-consumer: /def/**
+    open-api: /open/**
 
 management:
   security:
