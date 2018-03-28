@@ -1,7 +1,7 @@
 spring:
   application:
 #   这个地方要与规则一致，配置文件前缀要一样
-    name: dm-provider
+    name: open-api
   cloud:
     config:
 #      uri: http://localhost:3001/
@@ -12,7 +12,7 @@ spring:
         enabled: true
         service-id: config-server
 server:
-  port: 2002
+  port: 2101
 eureka:
   client:
     serviceUrl:
