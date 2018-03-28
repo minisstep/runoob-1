@@ -1,4 +1,4 @@
-package com.runoob.cloud.consumer.dm.service;
+package com.runoob.cloud.open.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,8 +10,8 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @EnableFeignClients
 @SpringBootApplication
 @EnableDiscoveryClient
-public class DMConsumerApplication {
+public class OpenApiApplication {
     public static void main(String[] args) {
-        SpringApplication.run(DMConsumerApplication.class, args);
+        SpringApplication.run(OpenApiApplication.class, args);
     }
 }

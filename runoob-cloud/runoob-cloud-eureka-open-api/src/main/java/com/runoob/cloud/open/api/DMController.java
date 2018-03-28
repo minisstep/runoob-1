@@ -1,4 +1,4 @@
-package com.runoob.cloud.consumer.dm.service;
+package com.runoob.cloud.open.api;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
