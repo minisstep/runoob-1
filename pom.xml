@@ -12,7 +12,6 @@
     <modules>
         <module>runoob-dependencies</module>
         <module>runoob-cloud</module>
-        <!--<module>runoob-build</module>-->
     </modules>
     <properties>
         <runoob.version>1.0-SNAPSHOT</runoob.version>
