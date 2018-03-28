@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: zuul-gateway
+
+server:
+  port: 5001
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1001/eureka/
+#对于面向服务的路由配置，
+#除了使用path与serviceId映射的配置方式之外，
+#还有一种更简洁的配置方式：zuul.routes.<serviceId>=<path>，
+#其中<serviceId>用来指定路由的具体服务名，<path>用来配置匹配的请求表达式。
+#比如下面的例子，它的路由规则等价于上面通过path与serviceId组合使用的配置方式。
+#默认：http://localhost:5001/dm-provider/service
+#默认：http://localhost:5001/dm-consumer/query
+#配置：http://localhost:5001/abc/service
+#配置：http://localhost:5001/def/query
+#
+zuul:
+  routes:
+    dm-provider: /abc/**
+    dm-consumer: /def/**
+
+management:
+  security:
+    enabled: false

@@ -5,6 +5,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @FeignClient("dm-provider")
 public interface ServiceClient {
-    @GetMapping("/dc")
-    String consumer();
+    @GetMapping("/service")
+    String service();
 }

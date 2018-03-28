@@ -11,10 +11,10 @@ public class DMController {
     private ServiceClient serviceClient;
 
     @HystrixCommand(fallbackMethod = "fallback")
-    @GetMapping("/consumer")
-    public String dc() {
+    @GetMapping("/query")
+    public String query() {
 //        Thread.sleep(5000L);
-        return serviceClient.consumer();
+        return serviceClient.service();
     }
 
     public String fallback() {
