@@ -22,6 +22,8 @@
         <module>runoob-cloud-eureka-server</module>
         <module>runoob-cloud-hystrix-dashboard</module>
         <module>runoob-cloud-zuul-gateway</module>
+        <module>runoob-cloud-zuul-gateway2</module>
+        <module>runoob-cloud-eureka-server2</module>
     </modules>
     <dependencyManagement>
         <dependencies>

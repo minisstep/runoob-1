@@ -1,3 +1,5 @@
+server:
+  port: 2001
 spring:
   application:
 #  这个地方要与规则一致，配置文件前缀要一样
@@ -11,12 +13,12 @@ spring:
       discovery:
         enabled: true
         service-id: config-server
-server:
-  port: 2001
 eureka:
+  instance:
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
   client:
     serviceUrl:
-      defaultZone: http://localhost:1001/eureka/
+      defaultZone: http://localhost:1001/eureka/,http://localhost:1002/eureka/
 #management:
 #  security:
 #      enabled: false

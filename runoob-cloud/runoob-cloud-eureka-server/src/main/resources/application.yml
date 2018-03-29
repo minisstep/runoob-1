@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: eureka-server
+server:
+  port: 1001
+
+eureka:
+  instance:
+    # 注册时显示ip
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+    # 高可用 配置服务注册中心
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1002/eureka/
+    register-with-eureka: false
+    fetch-registry: false
+#  server:
+    # 开启自我保护
+#    enable-self-preservation: true
