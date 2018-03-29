@@ -16,7 +16,7 @@ eureka:
     # 高可用 配置服务注册中心
   client:
     serviceUrl:
-      defaultZone: http://localhost:1002/eureka/
+      defaultZone: http://192.168.50.103:1002/eureka/
     register-with-eureka: false
     fetch-registry: false
   server:
