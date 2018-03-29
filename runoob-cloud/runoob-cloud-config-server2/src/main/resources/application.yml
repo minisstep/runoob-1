@@ -15,6 +15,10 @@ spring:
 eureka:
   instance:
     instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+    #心跳设置，告诉服务器该实例仍在使用
+    lease-renewal-interval-in-seconds: 10
+    #告诉服务器如果10秒内未发送任何续约请求，则关闭该客户端
+    lease-expiration-duration-in-seconds: 20
   client:
     serviceUrl:
       defaultZone: http://localhost:1001/eureka/,http://localhost:1002/eureka/
