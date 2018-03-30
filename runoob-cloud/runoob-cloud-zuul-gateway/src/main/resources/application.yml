@@ -13,7 +13,7 @@ eureka:
     lease-expiration-duration-in-seconds: 20
   client:
     serviceUrl:
-      defaultZone: http://localhost:1001/eureka/,http://localhost:1002/eureka/
+      defaultZone: http://192.168.50.100:1001/eureka/,http://192.168.50.140:1001/eureka/,http://192.168.50.235:1001/eureka/
 #对于面向服务的路由配置，
 #除了使用path与serviceId映射的配置方式之外，
 #还有一种更简洁的配置方式：zuul.routes.<serviceId>=<path>，

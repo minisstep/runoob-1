@@ -14,16 +14,16 @@
     <modules>
         <module>runoob-cloud-config</module>
         <module>runoob-cloud-config-server</module>
-        <module>runoob-cloud-config-server2</module>
+        <!--<module>runoob-cloud-config-server2</module>-->
         <module>runoob-cloud-eureka-dm-provider</module>
-        <module>runoob-cloud-eureka-dm-provider2</module>
+        <!--<module>runoob-cloud-eureka-dm-provider2</module>-->
         <module>runoob-cloud-eureka-open-api</module>
-        <module>runoob-cloud-eureka-open-api2</module>
+        <!--<module>runoob-cloud-eureka-open-api2</module>-->
         <module>runoob-cloud-eureka-server</module>
         <module>runoob-cloud-hystrix-dashboard</module>
         <module>runoob-cloud-zuul-gateway</module>
-        <module>runoob-cloud-zuul-gateway2</module>
-        <module>runoob-cloud-eureka-server2</module>
+        <!--<module>runoob-cloud-zuul-gateway2</module>-->
+        <!--<module>runoob-cloud-eureka-server2</module>-->
     </modules>
     <dependencyManagement>
         <dependencies>
