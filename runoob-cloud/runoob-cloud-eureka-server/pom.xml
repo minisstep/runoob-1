@@ -23,4 +23,27 @@
             </plugin>
         </plugins>
     </build>
+    <profiles>
+        <profile>
+            <id>master</id>
+            <properties>
+                <env>master</env>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
+            <id>slave1</id>
+            <properties>
+                <env>slave1</env>
+            </properties>
+        </profile>
+        <profile>
+            <id>slave2</id>
+            <properties>
+                <env>slave2</env>
+            </properties>
+        </profile>
+    </profiles>
 </project>
