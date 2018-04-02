@@ -44,7 +44,7 @@
 
     <!-- 相当于loger元素，只是name值已经确定为root了 -->
     <root level="INFO">
-        <appender-ref ref="STDOUT"/>
-        <!--<appender-ref ref="FILE" />-->
+        <!--<appender-ref ref="STDOUT"/>-->
+        <appender-ref ref="FILE"/>
     </root>
 </configuration>
